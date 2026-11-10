@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aishwarya Donde | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: white;
+            line-height: 1.7;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #111a2e;
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            color: #38bdf8;
+            font-size: 23px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 75px 10%;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 15px 0;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 650px;
+        }
+
+        .tag {
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 7px;
+            width: fit-content;
+        }
+
+        h2 {
+            color: #38bdf8;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #172238;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 18px;
+            border: 1px solid #293850;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #172f4b;
+            color: #7dd3fc;
+            padding: 10px 18px;
+            border-radius: 20px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111a2e;
+            color: #cbd5e1;
+        }
+
+        a {
+            color: #38bdf8;
+        }
+
+        @media(max-width: 650px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 6px;
+                font-size: 13px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Aishwarya.</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <p class="tag">WELCOME TO MY PORTFOLIO</p>
+    <h1>Hi, I'm <span>Aishwarya Donde</span></h1>
+    <h3>Mechanical Engineering Student | AI & Technology Enthusiast</h3>
+    <p>
+        I am passionate about learning technology, programming,
+        Artificial Intelligence and Machine Learning.
+        I believe in continuous learning and building solutions
+        that create a positive impact.
+    </p>
+    <a href="#about" class="btn">Explore My Portfolio</a>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            Hello! I am Aishwarya Dhanwant Donde,
+            a second-year Mechanical Engineering student.
+            Along with my engineering studies, I am exploring
+            programming, Artificial Intelligence, Machine Learning
+            and web development.
+        </p>
+        <p>
+            My goal is to become a technology-driven entrepreneur
+            and create innovative solutions that make a difference.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills & Interests</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript - Learning</span>
+        <span>Artificial Intelligence</span>
+        <span>Machine Learning</span>
+        <span>GitHub</span>
+        <span>Robotics</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>College RAG Chatbot</h3>
+        <p>
+            An AI-based college chatbot concept designed to
+            answer student questions using college information.
+        </p>
+        <p><strong>Status:</strong> In Progress</p>
+    </div>
+
+    <div class="card">
+        <h3>Python Programming Practice</h3>
+        <p>
+            Learning Python through practical exercises
+            involving programming, data analysis and
+            beginner machine learning concepts.
+        </p>
+        <p><strong>Status:</strong> Learning</p>
+    </div>
+
+    <div class="card">
+        <h3>Machine Learning Practice</h3>
+        <p>
+            Exploring machine learning algorithms such as
+            Linear Regression, Naive Bayes and XGBoost
+            through beginner exercises.
+        </p>
+        <p><strong>Status:</strong> Learning</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+        <p>Thank you for visiting my portfolio!</p>
+        <p>Let's connect and learn together.</p>
+        <p>
+            GitHub:
+            <a href="https://github.com/aishwaryadonde07-a11y"
+            target="_blank">
+            Visit My GitHub
+            </a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Aishwarya Donde | Personal Portfolio</p>
+    <p>Designed with passion and continuous learning.</p>
+</footer>
+
+</body>
+</html>
